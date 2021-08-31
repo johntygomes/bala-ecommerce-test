@@ -136,4 +136,4 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 MEDIA_URL = "/image/download/"
 
-MEDIA_ROOT = os.path.join(BASE_DIR, "/image/download/")
+MEDIA_ROOT = os.path.join(BASE_DIR, "/uploads/products")
