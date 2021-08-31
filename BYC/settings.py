@@ -134,6 +134,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
-MEDIA_URL = "/image/download/"
+MEDIA_URL = "https://drive.google.com/drive/folders/1k8nEVIs3H956fYtTXaswaIKF8kxalqoI?usp=sharing"
 
-MEDIA_ROOT = os.path.join(BASE_DIR, "/uploads/products")
+MEDIA_ROOT = os.path.join(BASE_DIR, "https://drive.google.com/drive/folders/1k8nEVIs3H956fYtTXaswaIKF8kxalqoI?usp=sharing")
