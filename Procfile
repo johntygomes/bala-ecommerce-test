@@ -1,1 +1,1 @@
-web: gunicorn BYC.wsgi --log-file -
+web: gunicorn BYC.wsgi

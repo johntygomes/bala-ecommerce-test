@@ -124,16 +124,16 @@ USE_TZ = True
 #MEDIA_URL = "/image/download/"
 #MEDIA_ROOT = BASE_DIR
 
-STATIC_URL = '/static/'
+STATIC_URL = '/uploads/products/'
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, "uploads/products/"),
 )
 
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-MEDIA_URL = "https://drive.google.com/drive/folders/1k8nEVIs3H956fYtTXaswaIKF8kxalqoI?usp=sharing"
+MEDIA_URL = "/media/"
 
-MEDIA_ROOT = os.path.join(BASE_DIR, "https://drive.google.com/drive/folders/1k8nEVIs3H956fYtTXaswaIKF8kxalqoI?usp=sharing")
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
